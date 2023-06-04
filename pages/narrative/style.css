@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 10px 20px;
+    z-index: 100;
+  }
+  
+  .left-header {
+    font-size: 2rem;
+  }
+  
+  .right-header nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 2rem;
+  }
+  
+  .right-header nav a:hover {
+    color: grey;
+  }
+  
+  .gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* It now expands based on the content */
+}
+
+  
+  #gif-1 {
+    width: 70%;
+    height: auto;
+    margin-top: 60px; /* Adjust this to move the gif down */
+    margin-bottom: 70px; /* Adjust this to control the spacing between the gif and the body paragraph */
+}
+
+  
+  .centered-text {
+    color: rgb(145, 145, 145);
+    font-family: 'Adobe Garamond', serif;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+  
+  .centered-text h2 {
+    margin-bottom: 20px;
+  }
+  
+  .centered-text p {
+    text-align: justify;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
