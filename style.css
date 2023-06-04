@@ -9,9 +9,9 @@ body {
     align-items: center;
     position: sticky;
     top: 0;
-    background: #fff;
     padding: 10px 20px;
     z-index: 100;
+    font-family: 'Adobe Garamond', serif;
   }
   
   .left-header {
@@ -31,27 +31,12 @@ body {
   .image-frame-container {
     position: relative;
     height: 100vh;
-    background: #eee; /* Temporary, to visualize the container */
+    background: #ffffff; /* Temporary, to visualize the container */
   }
   
   #main-image {
     object-fit: cover;
     width: 100%;
     height: 100%;
-  }
-  
-  .thumbnails {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .thumb {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    margin: 0 5px;
-  }
-  
+    display: block;
+}
