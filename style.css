@@ -1,48 +1,69 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     position: sticky;
     top: 0;
     padding: 10px 20px;
     z-index: 100;
     font-family: 'Adobe Garamond', serif;
-  }
+}
   
-  .left-header {
+.left-header {
     font-size: 2rem;
-  }
-  
-  .left-header a {
+}
+
+.left-header .title {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.left-header .subtitle {
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px; /* adjust this value as per your requirements */
+}
+
+.left-header a {
     color: black;
     text-decoration: none; 
 }
 
-
-  .right-header nav a {
+.right-header {
+    padding-top: 10px;
+}
+  
+.right-header nav a {
     color: #000;
     text-decoration: none;
     margin-left: 2rem;
-  }
+}
   
-  .right-header nav a:hover {
+.right-header nav a:hover {
     color: grey;
-  }
+}
   
-  .image-frame-container {
+.image-frame-container {
     position: relative;
-    height: 100vh;
-    background: #ffffff; /* Temporary, to visualize the container */
-  }
+    height: calc(100% - 0px); /* reduce the height of the body by the height of the header */
+    padding-bottom: 0;
+}
   
-  #main-image {
-    object-fit: cover;
+#main-image {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    display: block;
+    z-index: -1;
+    object-fit: fill; 
 }

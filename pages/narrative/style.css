@@ -6,34 +6,51 @@ body {
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     position: sticky;
     top: 0;
-    background: #fff;
     padding: 10px 20px;
     z-index: 100;
     font-family: 'Adobe Garamond', serif;
-  }
+    background-color: white;
+}
   
-  .left-header {
+.left-header {
     font-size: 2rem;
-  }
+}
 
-  .left-header a {
+.left-header .title {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.left-header .subtitle {
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px; /* adjust this value as per your requirements */
+}
+
+.left-header a {
     color: black;
     text-decoration: none; 
 }
+
+.right-header {
+    padding-top: 10px;
+}
   
-  .right-header nav a {
+.right-header nav a {
     color: #000;
     text-decoration: none;
     margin-left: 2rem;
-  }
+}
   
-  .right-header nav a:hover {
+.right-header nav a:hover {
     color: grey;
-  }
-  
+}
   .gif-container {
     display: flex;
     flex-direction: column;
@@ -48,7 +65,7 @@ body {
   #gif-1 {
     width: 70%;
     height: auto;
-    margin-top: 100px; /* Adjust this to move the gif down */
+    margin-top: 50px; /* Adjust this to move the gif down */
     margin-bottom: 100px; /* Adjust this to control the spacing between the gif and the body paragraph */
 }
 
