@@ -18,6 +18,12 @@ body {
     font-size: 2rem;
   }
   
+  .left-header a {
+    color: black;
+    text-decoration: none; 
+}
+
+
   .right-header nav a {
     color: #000;
     text-decoration: none;
