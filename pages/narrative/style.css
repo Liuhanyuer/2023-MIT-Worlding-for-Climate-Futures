@@ -42,8 +42,8 @@ body {
   #gif-1 {
     width: 70%;
     height: auto;
-    margin-top: 60px; /* Adjust this to move the gif down */
-    margin-bottom: 70px; /* Adjust this to control the spacing between the gif and the body paragraph */
+    margin-top: 100px; /* Adjust this to move the gif down */
+    margin-bottom: 100px; /* Adjust this to control the spacing between the gif and the body paragraph */
 }
 
   
