@@ -52,7 +52,7 @@ body {
     color: grey;
 }
   
-.gif-container {
+.jpg-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,6 +77,20 @@ body {
   border-left-width: 200px;
 }
 
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust the value as per your desired spacing */
+}
+
+.gif {
+  max-width: 40%; /* Adjust the width of the GIF as per your preference */
+  height: auto;
+}
+
+
 .thumbnail-container {
   display: flex;
   flex-wrap: wrap;
@@ -96,7 +110,7 @@ body {
   text-align: left;
   text-align: center;
   font-family: 'Adobe Garamond', serif;
-  font-size: small;
+  font-size: medium;
   margin-bottom: 150px;
 }
 
@@ -114,11 +128,13 @@ body {
 
   
 .centered-text h1 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 50px;
+  color: black;
 }
 
 .centered-text h1 p {
@@ -130,4 +146,5 @@ body {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    font-size: large;
 }

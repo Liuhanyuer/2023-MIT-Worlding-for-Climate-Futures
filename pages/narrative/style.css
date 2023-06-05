@@ -79,12 +79,15 @@ body {
 
 
 .centered-text h1 {
-margin-bottom: 20px;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  color: black;
 }
+
 
 .centered-text h1 p {
 margin: 0;
@@ -95,4 +98,5 @@ margin: 0;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  font-size: large;
 }
