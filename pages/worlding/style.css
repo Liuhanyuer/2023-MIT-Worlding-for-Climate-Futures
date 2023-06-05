@@ -65,7 +65,7 @@ body {
 
   
 #jpg-1 {
-  width: 40%;
+  width: 30%;
   height: auto;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -86,7 +86,7 @@ body {
 }
 
 .gif {
-  max-width: 40%; /* Adjust the width of the GIF as per your preference */
+  max-width: 45%; /* Adjust the width of the GIF as per your preference */
   height: auto;
 }
 
@@ -96,7 +96,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  margin-top: -100px;  /* adjust this negative value to move thumbnails up */
+  margin-top: -180px;  /* adjust this negative value to move thumbnails up */
 }
 
 .thumbnail {
