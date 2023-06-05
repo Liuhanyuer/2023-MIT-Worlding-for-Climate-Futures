@@ -53,22 +53,18 @@ body {
 }
   
 .jpg-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    min-height: 100vh; /* It now expands based on the content */
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 20px; /* Adjust the value as per your desired spacing */
+  height: 400px; /* Adjust the value as per your desired image height */
 }
 
-  
-#jpg-1 {
-  width: 30%;
-  height: auto;
-  margin-top: 5px;
-  margin-bottom: 20px;
+.jpg {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
   border-style: solid;
   border-color: rgb(243, 243, 243);
   border-top-width: 20px;
@@ -76,6 +72,7 @@ body {
   border-bottom-width: 20px;
   border-left-width: 200px;
 }
+
 
 
 .gif-container {
@@ -96,14 +93,15 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  margin-top: -180px;  /* adjust this negative value to move thumbnails up */
+  margin-top: 10px;  /* adjust this negative value to move thumbnails up */
 }
 
 .thumbnail {
-  width: 5%;  /*adjust size as required*/
-  height: auto;
+  width: auto;
+  height: 70px; /* Adjust the value as per your desired thumbnail height */
   margin: 5px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .caption {
@@ -111,6 +109,7 @@ body {
   text-align: center;
   font-family: 'Adobe Garamond', serif;
   font-size: medium;
+  margin-top: -10px;
   margin-bottom: 150px;
 }
 
