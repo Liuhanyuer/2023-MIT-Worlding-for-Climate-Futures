@@ -12,6 +12,7 @@ body {
     padding: 10px 20px;
     z-index: 100;
     font-family: 'Adobe Garamond', serif;
+    background-color: rgb(255, 255, 255);
 }
   
 .left-header {
@@ -59,16 +60,41 @@ body {
     text-align: center;
     padding: 20px;
     min-height: 100vh; /* It now expands based on the content */
+    
 }
 
   
-  #gif-1 {
-    width: 70%;
-    height: auto;
-    margin-top: 60px; /* Adjust this to move the gif down */
-    margin-bottom: 70px; /* Adjust this to control the spacing between the gif and the body paragraph */
+#jpg-1 {
+  width: 40%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  border-style: solid;
+  border-color: rgb(243, 243, 243);
+  border-top-width: 20px;
+  border-right-width: 200px;
+  border-bottom-width: 20px;
+  border-left-width: 200px;
 }
 
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.thumbnail {
+  width: 5%;  /*adjust size as required*/
+  height: auto;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+  cursor: pointer;
+}
   
   .centered-text {
     color: rgb(145, 145, 145);
