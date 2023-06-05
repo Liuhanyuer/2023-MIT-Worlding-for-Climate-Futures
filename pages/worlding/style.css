@@ -52,7 +52,7 @@ body {
     color: grey;
 }
   
-  .gif-container {
+.gif-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,8 +67,8 @@ body {
 #jpg-1 {
   width: 40%;
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 70px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   border-style: solid;
   border-color: rgb(243, 243, 243);
   border-top-width: 20px;
@@ -82,6 +82,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
+  margin-top: -100px;  /* adjust this negative value to move thumbnails up */
 }
 
 .thumbnail {
@@ -91,22 +92,38 @@ body {
   cursor: pointer;
 }
 
+.caption {
+  text-align: left;
+  text-align: center;
+  font-family: 'Adobe Garamond', serif;
+  font-size: small;
+  margin-bottom: 150px;
+}
+
 .thumbnail:hover {
   opacity: 1;
   cursor: pointer;
 }
   
-  .centered-text {
-    color: rgb(145, 145, 145);
+.centered-text {
+    color: rgb(91, 91, 91);
     font-family: 'Adobe Garamond', serif;
     width: 100%;
     margin-bottom: 300px;
 }
 
   
-  .centered-text h2 {
-    margin-bottom: 20px;
-  }
+.centered-text h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered-text h1 p {
+  margin: 0;
+}
   
   .centered-text p {
     text-align: justify;

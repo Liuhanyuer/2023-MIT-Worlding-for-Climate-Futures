@@ -70,21 +70,29 @@ body {
 }
 
   
-  .centered-text {
-    color: rgb(145, 145, 145);
-    font-family: 'Adobe Garamond', serif;
-    width: 100%;
-    margin-bottom: 300px;
+.centered-text {
+  color: rgb(91, 91, 91);
+  font-family: 'Adobe Garamond', serif;
+  width: 100%;
+  margin-bottom: 300px;
 }
 
-  
-  .centered-text h2 {
-    margin-bottom: 20px;
-  }
-  
-  .centered-text p {
-    text-align: justify;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+
+.centered-text h1 {
+margin-bottom: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.centered-text h1 p {
+margin: 0;
+}
+
+.centered-text p {
+  text-align: justify;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
