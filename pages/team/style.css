@@ -92,3 +92,7 @@ text-align: center;
   margin-right: auto;
   font-size: large;
 }
+
+a:hover {
+    color: rgb(145, 0, 0);
+}
