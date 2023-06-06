@@ -73,6 +73,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px; /* Adjust the value as per your desired spacing */
+  margin-top: 50px;
 }
 
 .gif {
@@ -103,6 +104,21 @@ body {
   font-family: 'Adobe Garamond', serif;
   font-size: medium;
   margin-bottom: 150px;
+}
+
+.gif-caption {
+  font-family: 'Adobe Garamond', serif;
+  font-size: 5px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(168, 167, 167);
 }
 
 .thumbnail:hover {

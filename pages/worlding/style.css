@@ -105,13 +105,29 @@ body {
 }
 
 .caption {
-  text-align: left;
   text-align: center;
   font-family: 'Adobe Garamond', serif;
   font-size: medium;
   margin-top: -10px;
   margin-bottom: 150px;
 }
+
+.gif-caption {
+  font-family: 'Adobe Garamond', serif;
+  font-size: 5px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(168, 167, 167);
+}
+
+
 
 .thumbnail:hover {
   opacity: 1;
