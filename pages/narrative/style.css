@@ -69,6 +69,14 @@ body {
     margin-bottom: 100px; /* Adjust this to control the spacing between the gif and the body paragraph */
 }
 
+.caption {
+  text-align: left;
+  text-align: center;
+  font-family: 'Adobe Garamond', serif;
+  font-size: medium;
+  margin-top: -100px;
+  margin-bottom: 150px;
+}
   
 .centered-text {
   color: rgb(91, 91, 91);
