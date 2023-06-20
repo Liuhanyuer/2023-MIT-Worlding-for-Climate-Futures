@@ -96,3 +96,13 @@ text-align: center;
 a:hover {
     color: rgb(145, 0, 0);
 }
+
+.jpg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jpg {
+  max-width: 33.33%;
+}
